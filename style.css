@@ -19,8 +19,8 @@ body {
   background-size: cover;
 }
 
-#logo{
-    width: 300px;
+#logo {
+  width: 300px;
 }
 
 .title {
@@ -30,4 +30,33 @@ body {
   color: greenyellow;
   padding: -1rem 0;
   text-align: center;
+}
+
+#question {
+  height: 650px;
+  background: linear-gradient(
+    65deg,
+    rgba(101, 151, 209, 0.8),
+    rgba(202, 102, 211, 0.5)
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer_logo {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    120deg,
+    rgba(101, 151, 209, 0.8),
+    rgba(202, 102, 211, 0.5)
+  );
+}
+
+#footer_logo > a > img {
+  height: 50px;
+  width: 50px;
+  padding-top: 20px;
 }
