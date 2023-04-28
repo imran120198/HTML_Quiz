@@ -51,6 +51,9 @@ function displayQuiz() {
 displayQuiz();
 
 next.addEventListener("click", () => {
-  i = i+1;
-  displayQuiz()
+  if(i<questionBank.length-1)
+    {
+        i=i+1;
+        displayQuiz();
+    }
 })
