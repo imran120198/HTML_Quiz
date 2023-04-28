@@ -45,10 +45,10 @@ body {
   background-size: cover;
 }
 
-#quiz_container{
-    width: 80%;
-    background-color: lightsalmon;
-    margin: auto;
+#quiz_container {
+  width: 80%;
+  background-color: lightsalmon;
+  margin: auto;
 }
 
 #footer_logo {
@@ -60,6 +60,21 @@ body {
     rgba(101, 151, 209, 0.8),
     rgba(202, 102, 211, 0.5)
   );
+}
+
+#questions {
+  margin-bottom: 1rem;
+  padding: 20px;
+}
+
+.option {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.option:hover {
+  color: white;
 }
 
 #footer_logo > a > img {
