@@ -11,6 +11,16 @@ var questionBank = [
     answer:
       "The track tag is used for specifying subtitles, captions, and other types of time-based text. It is typically applied as a child of the audio and video tag.",
   },
+  {
+    question: " When is the link tag used",
+    options: [
+      "when linking style sheets, JavaScript, and icons for mobile apps",
+      "when linking style sheets, favicons, and preloading assets",
+      "when linking one webpage to another",
+      "when linking style sheets, external URLs, and favicons",
+    ],
+    answer: "when linking style sheets, favicons, and preloading assets",
+  },
 ];
 
 // Reading the tag
@@ -22,6 +32,7 @@ var option2 = document.getElementById("option2");
 var option3 = document.getElementById("option3");
 var option4 = document.getElementById("option4");
 var para = document.querySelectorAll("span");
+var next = document.getElementById("next")
 
 var i = 0;
 
@@ -38,3 +49,8 @@ function displayQuiz() {
 }
 
 displayQuiz();
+
+next.addEventListener("click", () => {
+  i = i+1;
+  displayQuiz()
+})
