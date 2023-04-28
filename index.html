@@ -12,11 +12,22 @@
 
     <nav class="navbar">
       <img id="logo" src="./logo.png" alt="logo" />
-      <p class="title">HTML QUIZMANIA</p>
+      <p class="title">QUIZMANIA</p>
     </nav>
 
     <!------------- Question ---------------->
-    <div id="question"></div>
+    <div id="question_container">
+      <div id="quiz_container">
+        <h2 id="questions"></h2>
+        <ol type="A">
+            <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+            <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+            <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+            <li class="option"><span id="option4" onclick="calcScore(this)"></span></li>
+        </ol>
+      </div>
+
+    </div>
 
     <!------------ footer ------------>
 

@@ -32,7 +32,8 @@ body {
   text-align: center;
 }
 
-#question {
+#question_container {
+  border: 1px solid rgba(101, 151, 209, 0.8);
   height: 650px;
   background: linear-gradient(
     65deg,
@@ -42,6 +43,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#quiz_container{
+    width: 80%;
+    background-color: lightsalmon;
+    margin: auto;
 }
 
 #footer_logo {
@@ -59,4 +66,5 @@ body {
   height: 50px;
   width: 50px;
   padding-top: 20px;
+  padding-right: 30px;
 }
