@@ -60,6 +60,7 @@ next.addEventListener(
       i = i + 1;
       displayQuiz();
     }
+    
   })
 );
 
@@ -71,6 +72,6 @@ function clickOption(e) {
     score = score + 1;
     document.getElementById(e.id).style.background = "limegreen";
   } else {
-    document.getElementById(e.id).style.background = "tomato";
+    document.getElementById(e.id).style.background = "red";
   }
 }
