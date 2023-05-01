@@ -21,6 +21,31 @@ var questionBank = [
     ],
     answer: "when linking style sheets, favicons, and preloading assets",
   },
+  {
+    question: "Where do header and footer tags typically occur?",
+    options: [
+      "as children of body, article, aside, and section tags",
+      "as children of body, article, and section tags",
+      "as children of body, article, aside, nav, and section tags",
+      "as children of body, article, table, and section tags",
+    ],
+    answer: "as children of body, article, and section tags",
+  },
+  {
+    question: "When is the link tag used?",
+    options: [
+      "when linking style sheets, JavaScript, and icons for mobile apps",
+      "when linking style sheets, favicons, and preloading assets",
+      "when linking one webpage to another",
+      "when linking style sheets, external URLs, and favicons",
+    ],
+    answer: "when linking style sheets, favicons, and preloading assets",
+  },
+  {
+    question: "What is NOT a valid attribute for the textarea element?",
+    options: ["readonly", "max", "form", "spellcheck"],
+    answer: "max",
+  },
 ];
 
 // Reading the tag
@@ -39,7 +64,6 @@ var i = 0;
 for (var a = 0; a < para.length; a++) {
   para[a].style.background = "none";
 }
-
 
 // display question
 function displayQuiz() {
@@ -60,7 +84,6 @@ next.addEventListener(
       i = i + 1;
       displayQuiz();
     }
-    
   })
 );
 
