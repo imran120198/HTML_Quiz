@@ -25,6 +25,7 @@ body {
 }
 
 #logo {
+  position: fixed;
   width: 6.5rem;
   height: 5.2rem;
 }
