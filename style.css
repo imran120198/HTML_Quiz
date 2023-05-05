@@ -15,7 +15,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: auto;
+  height: 100vh;
 }
 
 #navbar{
